@@ -1,0 +1,16 @@
+REM Open Terminal
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+DELAY 500
+ENTER
+DELAY 1000
+
+REM Try to update Homebrew
+STRING curl -fsSL https://tailscale.com/install.sh
+SPACE
+ALT 7
+SPACE
+STRING bash 
+ENTER
